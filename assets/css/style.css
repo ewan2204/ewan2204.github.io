@@ -1,7 +1,11 @@
+/*https://coolors.co/palette/f8ffe5-06d6a0-1b9aaa-ef476f-ffc43d*/
+
+
+
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #ef476f;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -11,7 +15,7 @@
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #f8ffe5;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -19,24 +23,24 @@
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
-  color: black;
+  color: #f8ffe5;
+  background: #8b2d43;
 }
 
 
 /* Main content */
 .main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  margin-top: 60px; /* Add a top margin to avoid content overlay */
 }
 
 
 .current {
-  color: green;
+  color: #ffc43d;
 }
 
 
 body {
-  background:#042323;
+  background:#f8ffe5;
   font-family: Georgia, serif;
   font-size: 20px;
   letter-spacing: 0.1em;
@@ -66,5 +70,5 @@ h1 {
   text-align: center;
   padding: 0%;
   font-size: 30px;
-  color: #438463;
+  color: #ffc43d;
   }
