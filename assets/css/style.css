@@ -1,4 +1,4 @@
-/*https://coolors.co/palette/f8ffe5-06d6a0-1b9aaa-ef476f-ffc43d*/
+/*  https://coolors.co/palette/f8ffe5-06d6a0-1b9aaa-ef476f-ffc43d  */
 
 
 
@@ -8,7 +8,9 @@
   background-color: #ef476f;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  width: 90%; /* Full width */
+  margin-top:5px;
+  margin-bottom:5px;
 }
 
 /* Links inside the navbar */
@@ -72,3 +74,17 @@ h1 {
   font-size: 30px;
   color: #ffc43d;
   }
+
+
+  .main-box {
+    height: 80%;
+    overflow: auto;
+    margin: 20%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    padding: 3%;
+    padding-top: 1%;
+    border-radius: 5px;
+    border: 2px solid #06D6A0;
+    }
+
