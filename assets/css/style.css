@@ -8,9 +8,10 @@
   background-color: #ef476f;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 90%; /* Full width */
-  margin-top:5px;
-  margin-bottom:5px;
+  margin-top:2%;
+  margin-bottom:2%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 /* Links inside the navbar */
@@ -61,12 +62,7 @@ img:hover {
   border-radius:8px;
   }
 
-.container {
-  margin: 0 auto;
-  width: 80%;
-  margin-top:5px;
-  margin-bottom:5px;
-  }
+
 
 h1 {
   text-align: center;
@@ -76,15 +72,14 @@ h1 {
   }
 
 
-  .main-box {
-    height: 80%;
-    overflow: auto;
-    margin: 20%;
-    margin-top: 2%;
-    margin-bottom: 8%;
-    padding: 3%;
-    padding-top: 1%;
-    border-radius: 5px;
-    border: 2px solid #06D6A0;
-    }
+.main-box {
+  overflow: auto;
+  margin: 10%;
+  margin-top: 2%;
+  margin-bottom: 8%;
+  padding: 3%;
+  padding-top: 1%;
+  border-radius: 5px;
+  border: 2px solid #06D6A0;
+  }
 
