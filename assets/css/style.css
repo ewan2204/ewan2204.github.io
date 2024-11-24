@@ -24,10 +24,47 @@
 }
 
 
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
 .current {
   color: green;
 }
 
 
+body {
+  background:#042323;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
 
 
+img {
+  padding: 30px 30px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  }
+  
+img:hover {
+  border-radius:8px;
+  }
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  margin-top:5px;
+  margin-bottom:5px;
+  }
+
+h1 {
+  text-align: center;
+  padding: 0%;
+  font-size: 30px;
+  color: #438463;
+  }
