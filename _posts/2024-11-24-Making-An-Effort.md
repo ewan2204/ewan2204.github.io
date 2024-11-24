@@ -1,6 +1,8 @@
 ---
 title: "Making-An-Effort"
 date: 2024-11-24
+layout: post
+author: Zo
 ---
 
 
