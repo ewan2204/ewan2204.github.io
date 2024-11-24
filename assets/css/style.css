@@ -8,10 +8,11 @@
   background-color: #ef476f;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  margin-top:2%;
-  margin-bottom:2%;
-  margin-left: 2%;
-  margin-right: 2%;
+  width: 100%; /* Full width */
+  margin-top:1%;
+  margin-bottom:1%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 /* Links inside the navbar */
@@ -33,7 +34,7 @@
 
 /* Main content */
 .main {
-  margin-top: 60px; /* Add a top margin to avoid content overlay */
+  margin-top: 5%; /* Add a top margin to avoid content overlay */
 }
 
 
