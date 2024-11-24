@@ -6,13 +6,9 @@ permalink: /blog/
 <h1>Latest Posts</h1>
 
 <ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-
-
-      {{post}}
-    </li>
-  {% endfor %}
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
 </ul>
